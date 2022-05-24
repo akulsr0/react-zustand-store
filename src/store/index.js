@@ -4,7 +4,6 @@ import { dispatchActions } from "./actions";
 
 export const useStore = create((set) => {
   const actions = dispatchActions(set);
-  console.log(actions);
 
   return {
     ...state,
